@@ -1,0 +1,16 @@
+def get_name():
+    return input("PLease enter your name Sir/Mam :")
+
+def greet_name(name):
+    print(f"Hey there, {name}")
+
+def main():
+    name = get_name()
+    greet_name(name)
+main()
+
+
+
+
+
+
